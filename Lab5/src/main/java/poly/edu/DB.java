@@ -6,7 +6,7 @@ import java.util.Map;
 import poly.edu.entity.Item;
 
 public class DB {
-	public static Map<Integer, Item> items = new HashMap<>();
+	public static Map<Integer, Item> items = new HashMap<>(); //ngminhhung
 	static {
 		items.put(1, new Item(1, "Samsung", 10.0, 0));
 		items.put(2, new Item(2, "Nokia 2021", 20.50, 0));
